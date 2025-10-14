@@ -1,5 +1,3 @@
-import Foreign (Bits (xor))
-
 f :: Float -> Float
 f x = 3 * x + 2
 
