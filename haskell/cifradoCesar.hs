@@ -8,5 +8,5 @@ cifrarChar n c
   | otherwise = c
 
 cifradoCesar :: Int -> String -> String
-cifradoCesar 0 str = str
+cifradoCesar _ "" = ""
 cifradoCesar n str = map (cifrarChar n) str
