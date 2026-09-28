@@ -1,0 +1,30 @@
+Este ejercicio se tomo en el parcial del año 2023, dice lo siguiente:
+
+Un histograma es una representacion grafica de una variable en forma de barras,
+mientras mas alta sea la barra en ese punto, significa que tuvo más apariciones
+en la medida.
+
+Llevando ese concepto a una imagen, dada una imagen se pide contar las apariciones
+de los colores de los pixeles, por ejemplo:
+    sea la imagen expresada con los colores como numeros
+
+        [[1,255,125],
+         [1,125,125],
+         [1,0,125]]
+    
+    su histograma correspondiente seria un vector indicando en la respectiva posicion
+    la cantidad de apariciones de ese color de pixel, es decir
+
+    histograma[0] = 1
+    histograma[1] = 3
+    histograma[2] = 0
+    histograma[3] = 0
+    ...
+    histograma[125] = 4
+    ...
+    histograma[255] = 1
+
+Se pide crear la/s clases necesarias, un algoritmo que usando hilos calcule el histograma de una imagen,
+muestre el histograma y calcule el tiempo que llevo ejecutarse.
+
+Puede usar el codigo adjunto como referencia
